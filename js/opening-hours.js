@@ -141,7 +141,7 @@
         var fullHours = Math.floor(minutes/60);
         var rest = minutes % 60;
 
-        message += ' ' + messages['at'] + ' ' + fullHours + ':' + rest;
+        message += ' ' + messages;
 
         return message;
     }

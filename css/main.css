@@ -236,7 +236,7 @@ html, body {
   font-size: 20px;
   line-height: 20px;
   text-align: left;
-  min-height: 100vh; }
+  min-height: 85vh; }
 
 body {
   display: flex;
@@ -252,7 +252,7 @@ main {
 
 .current-status-placeholder {
   color: black;
-  background-color: #ffff68;
+  background-color: #fff632;
   padding: 30px 10px 0;
   margin: 20px 0 0 -10px;
   width: 120px;
@@ -262,11 +262,14 @@ main {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  transform: rotate(-15deg); }
 
 .closing-in-placeholder {
-  color: #ffff68;
+  color: #fff632;
   background-color: black;
   display: inline-block;
-  padding: 5px 10px;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 5px 10px 9px;
   border-radius: 5px; }
