@@ -1,0 +1,1 @@
+var data=[];data[0]=[[10,14]],data[1]=[[8.3,19.3]],data[2]=[[8.3,18.3]],data[3]=[[6.3,18.3]],data[4]=[[6,12.59],[16.35,16.39],[18.3,19.3]],data[5]=[[8.3,18.3]],data[6]=[[8.3,12],[14,18]],data[7]=[[8.3,12.59],[14,18]],$(".current-status-placeholder").openingHours({show:"current-status",hours:data}),$(".closing-in-placeholder").openingHours({show:"closing-in",hours:data});
