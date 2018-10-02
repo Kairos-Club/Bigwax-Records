@@ -238,10 +238,19 @@ html, body {
   text-align: left;
   min-height: 85vh; }
 
+img {
+  width: 100%;
+  max-width: 250px; }
+
 body {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media all and (max-width: 600px) {
+    body {
+      display: inline-block;
+      justify-content: inherit;
+      align-items: inherit; } }
 
 a {
   color: black;
@@ -249,12 +258,15 @@ a {
 
 main {
   padding: 20px; }
+  @media all and (max-width: 600px) {
+    main {
+      padding: 0 20px; } }
 
 .current-status-placeholder {
   color: black;
   background-color: #fff632;
   padding: 30px 10px 0;
-  margin: 20px 0 0 -10px;
+  margin: 10px 0 -25px -20px;
   width: 120px;
   height: 100px;
   display: inline-block;
@@ -265,6 +277,10 @@ main {
   text-align: center;
   transform: rotate(-15deg); }
 
+.social {
+  font-size: 30px;
+  line-height: 30px; }
+
 .closing-in-placeholder {
   color: #fff632;
   background-color: black;
@@ -272,4 +288,17 @@ main {
   font-size: 30px;
   line-height: 30px;
   padding: 5px 10px 9px;
+  margin: 0 0 10px 0;
   border-radius: 5px; }
+
+hr {
+  border: 0px solid transparent;
+  height: 1px;
+  background-color: black; }
+
+ul {
+  padding: 0;
+  list-style: none; }
+
+li {
+  margin-bottom: 10px; }
