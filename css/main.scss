@@ -313,8 +313,8 @@ html, body {
 
   cursor: default;
 
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 
   font-size: 20px;
   line-height: 20px;
@@ -324,31 +324,43 @@ html, body {
   min-height: 85vh;
 }
 
-img {
+
+.img {
   width: 100%;
+}
+
+.logo {
   max-width: 250px;
+}
+
+.waxkey {
+  max-width: 100px;
 }
 
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; }
 
-  @media all and (max-width: 600px) {
+@media all and (max-width: 600px) {
+  body {
     display: inline-block;
     justify-content: inherit;
     align-items: inherit;
   }
 }
 
+
+
 a {
-  color: black;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
 
 main {
 
-  padding: 20px 20px;
+  max-width: 700px;
+  padding: 0px 20px;
 
   @media all and (max-width: 600px) {
     padding: 0 20px 90px;
@@ -358,7 +370,7 @@ main {
 
 
 .current-status-placeholder {
-  color: black;
+  color: white;
   background-color: #fff632;
 
   padding: 30px 10px 0;
@@ -388,7 +400,7 @@ main {
 
 .closing-in-placeholder {
   color: #fff632;
-  background-color: black;
+  background-color: white;
 
   display: inline-block;
 
@@ -402,7 +414,7 @@ main {
 hr {
   border: 0px solid transparent;
   height: 1px;
-  background-color: black;
+  background-color: white;
 }
 
 ul {
