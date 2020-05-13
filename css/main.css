@@ -262,14 +262,25 @@ a {
   color: white;
   text-decoration: underline; }
 
+a.ico {
+  font-size: 40px;
+  line-height: 1px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+
 main {
-  max-width: 700px;
+  max-width: 800px;
   padding: 0px 20px; }
   @media all and (max-width: 600px) {
     main {
       padding: 0 20px 90px; } }
 .current-status-placeholder {
-  color: white;
+  color: black;
   background-color: #fff632;
   padding: 30px 10px 0;
   margin: 10px 0 -25px -20px;
@@ -288,7 +299,7 @@ main {
   line-height: 30px; }
 
 .closing-in-placeholder {
-  color: #fff632;
+  color: black;
   background-color: white;
   display: inline-block;
   font-size: 30px;
